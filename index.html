@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+    <link rel="stylesheet" href="./utilities/style.css">
+    <script src="./utilities/js/gameManager.js"></script>
+    <script src="./utilities/js/player.js"></script>
+    <script src="./utilities/js/enemy.js"></script>
+
+    <title>JS fight game</title>
+</head>
+<body>
+    <div class="header">
+        <p> Pour Lordaeron</p>
+        <h2>Choisissez votre hero</h2>
+    </div>
+
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Warrior')">
+            <img src="./img/heroes/warrior.webp" alt="warrior">
+            <div>
+                <h3>Warrior</h3>
+                <p>Très standard, le Guerrier est la classe brutale et basique à laquelle n'importe qui peut s'identifier. Capable d'endosser à la fois le rôle d'un puissant maître d'armes, d'un furieux berserker ou un porte-bouclier indéfectible, il est un allié de choix très apprécié.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Rogue')">
+            <img src="./img/heroes/rogue.webp" alt="rogue">
+            <div>
+                <h3>Rogue</h3>
+                <p>Sournois et discret, le Voleur spécialisé Finesse maîtrise les énergies du Vide dont il se sert afin de se faufiler et se téléporter derrière ses cibles afin de les surprendre et les mettre à mort en quelques secondes. Il porte une armure en Cuir et est équipé de deux armes à une main (Dague).</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Ranger')">
+            <img src="./img/heroes/ranger.webp" alt="ranger">
+            <div>
+                <h3>Ranger</h3>
+                <p>Très lié à la nature, il est capable de dompter un familier et lui donner des ordres afin de mutiler ses ennemis, ou bien d'être un tireur de précision hors pair capable d'annihiler une cible sur de très longues distances. Il ne dispose que de spécialisations DPS, dont deux se jouant à distance et une en mêlée.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Mage')">
+            <img src="./img/heroes/mage.webp" alt="mage">
+            <div>
+                <h3>Mage</h3>
+                <p>Le Mage est ce que l'on nomme "Sorcier" dans la plupart des univers d'Heroic Fantasy. Lanceur de sorts hors pair, il maîtrise la magie des Arcanes, du Givre et du Feu à la perfection et s'en sert afin d'anéantir ses adversaires grâce à des sortilèges dévastateurs.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="actions">
+        
+    </div>
+
+    <div class="arena">
+        
+    </div>
+
+    <div class="enemy">
+        
+    </div>
+</body>
+</html>
